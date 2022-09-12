@@ -6,7 +6,7 @@
                     <div class="card-header max-height:70%">
                         <div class="row" >
                             <div class="col-md-1">
-                              <img src="/assets/images/ArgentinaProgramaLogo.PNG" classs="card-fluid" alt="" width="30" height="30">
+                              <img [src]="miPortfolio.logo" classs="card-fluid" alt="" width="30" height="30">
                             </div>
                             <div class="col-md-3 text-align">
                                 <h5>Argentina Programa</h5>
@@ -26,20 +26,20 @@
                             </div>
                     
                             <div class="col-md-3">
-                              <a class="p-2 link-secondary" href="https://es-la.facebook.com/" target="_blank"><img src="/assets/images/facebook.svg" classs="card-fluid" alt="" width="20" height="20"></a>
-                              <a class="p-2 link-secondary" href="https://twitter.com/?lang=es" target="_blank"><img src="/assets/images/twitter.svg" classs="img-fluid" alt="" width="20" height="20"></a>
-                              <a class="p-2 link-secondary" href="https://ar.linkedin.com/" target="_blank"><img src="/assets/images/linkedin.svg" classs="img-fluid" alt="" width="20" height="20"></a>
-                              <a class="p-2 link-secondary" href="mailto:edominikow@yahoo.com.ar" target="_blank"><img src="/assets/images/email.svg" classs="img-fluid" alt="" width="20" height="20"></a>
+                              <a class="p-2 link-secondary" href="https://es-la.facebook.com/" target="_blank"><img [src]="miPortfolio.facebook" classs="card-fluid" alt="" width="20" height="20"></a>
+                              <a class="p-2 link-secondary" href="https://twitter.com/?lang=es" target="_blank"><img [src]="miPortfolio.twitter" classs="img-fluid" alt="" width="20" height="20"></a>
+                              <a class="p-2 link-secondary" href="https://ar.linkedin.com/" target="_blank"><img [src]="miPortfolio.linkedin" classs="img-fluid" alt="" width="20" height="20"></a>
+                              <a class="p-2 link-secondary" href="mailto:edominikow@yahoo.com.ar" target="_blank"><img [src]="miPortfolio.email" classs="img-fluid" alt="" width="20" height="20"></a>
                               <a class="btn btn-sm btn-outline-secondary" href="#" >Sign in</a>
                             </div>
                     
                           </div>
                     </div>
-                    <img src="/assets/images/foto_escritorio_3.jpg" alt="" class="card-img-top">
+                    <img [src]="miPortfolio.imgfondo" alt="" class="card-img-top">
                     <div class="row">
                         <div class="col-md-3">
                             <div class="card-body text-center">
-                                <h3 class="card-title"> <font size="5" face="Comic Sans MS,Arial" color="blue"><strong> ERNESTO DOMINIKOW </strong></font></h3>
+                                <h3 class="card-title"> <font size="5" face="Comic Sans MS,Arial" color="blue"><strong> {{miPortfolio.nombre}} </strong></font></h3>
                                 <p class="card-text text-align">
                                    
                                 </p>
@@ -50,7 +50,7 @@
                             <div class="card-body">
 
                                 <p><font size="5" face="Comic Sans MS,Arial" color="blue">
-                                   Profesional con amplia experiencia en las áreas de Sistemas y Comunicaciones obtenidas trabajando para reconocidas empresas nacionales y multinacionales.
+                                   {{miPortfolio.acercade}}
                                 </font></p>
 
                             </div>

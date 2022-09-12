@@ -8,6 +8,7 @@ import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { FormacionComponent } from './formacion/formacion.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
