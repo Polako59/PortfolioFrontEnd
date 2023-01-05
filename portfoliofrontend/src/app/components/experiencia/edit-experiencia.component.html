@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="empresa">Nombre de la empresa</label>
+                    <input type="text" class="form-control" id="empresa" name="empresa" [(ngModel)]="expEdit.empresa" required>
+                </div>
+                <div class="form-group">
+                    <label for="desde">Desde Fecha (DD/MM/AAAA)</label>
+                    <input type="text" class="form-control" id="desde" name="desde" [(ngModel)]="expEdit.desde" >
+                </div>
+                <div class="form-group">
+                    <label for="hasta">Hasta Fecha (DD/MM/AAAA)</label>
+                    <input type="text" class="form-control" id="hasta" name="hasta" [(ngModel)]="expEdit.hasta" >
+                </div>
+                <div class="form-group">
+                    <label for="puesto">Puesto Ocupado</label>
+                    <input type="text" class="form-control" id="puesto" name="puesto" [(ngModel)]="expEdit.puesto" required>
+                </div>
+                <div class="form-group">
+                    <label for="tareas">Descripcion de la tarea</label>
+                    <input type="text" class="form-control" id="tareas" name="descripcionE" [(ngModel)]="expEdit.tareas" required>
+                </div>
+                <div class="form-group">
+                    <label for="logo">URL Logo de la empresa</label>
+                    <input type="text" class="form-control" id="logo" name="logo" [(ngModel)]="expEdit.logo" >
+                </div>
+                <button class="btn btn-primary">
+                    Actualizar experiencia
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

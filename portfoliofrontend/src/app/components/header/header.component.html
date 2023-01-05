@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../assets/images/APLogo.png" id="logoAP">
+        </div>
+
+        
+            <div class="nav-scroller py-1 mb-2">
+              
+                <font face="Comic Sans MS, arial">
+                <a class="p-3 link-secondary" href="#experiencia">Experiencia</a>
+                <a class="p-3 link-secondary" href="#formacion">Formación</a>
+                <a class="p-3 link-secondary" href="#fortalezas">Skills</a>
+                <a class="p-3 link-secondary" href="#proyectos">Proyectos</a>
+                </font>
+              
+            </div>
+        
+
+        <div class="redes">
+            <a href="mailto:programmernest1@gmail.com?Subject=Interesado%20en%20Contactarte" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope" ></i> </a>
+            <a href="https://ar.linkedin.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin" ></i></a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter" ></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram" ></i></a>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" ></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" ></i></a>
+            <a (click)="login()" *ngIf="!isLogged" ><i class="bi bi-person-fill"></i></a>
+            <a (click)="onLogOut()" *ngIf="isLogged"><i class="bi bi-person-fill-check"></i></a>
+            <!--<button class="btn"><i class="bi bi-person-fill-check"></i></button> -->
+            
+        </div>
+    </div>
+</div>

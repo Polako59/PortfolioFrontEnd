@@ -1,0 +1,43 @@
+<div class="container-sm" style="background-color:white;">
+    <div style="height:20px;"></div>
+    <a name="formacion" id="formacion"></a>
+
+    <p style = "font-family:georgia,garamond,serif;font-size:35px;font-style:italic;font-weight: bold;">
+        Formación <button type="bottom" class="btn btn-dark" routerLink="/nuevaform" *ngIf="isLogged">Nueva Formacion</button>
+     </p>
+
+    <div style="height:30px;"></div>
+
+    <div class="row" *ngFor="let formacion of formacionList" >
+        <div class="col-md-2">
+            <div class="card border-5 text-white bg-secondary mb-3 text-center">
+                {{formacion.claseForm}}  {{formacion.fecha}}
+            </div>
+            <div class="card border-5 text-white bg-secondary mb-3 text-center">
+                {{formacion.titulo}}
+            </div>
+            
+        </div>
+        <div class="col-md-9">
+            <div class="card border-5 text-white bg-secondary mb-3 card-text">
+                 {{formacion.institucion}} <br>
+                 {{formacion.descripcion}}<br><br><br>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <td *ngIf="isLogged">
+                <button class="btn btn-light" routerLink="/editform/{{formacion.id}}"> <i class="bi bi-pencil-fill"></i></button>
+                
+            </td>
+            <br>
+            <td *ngIf="isLogged">
+                <button class="btn btn-danger" (click)="delete(formacion.id)"> <i class="bi bi-trash"></i></button>
+
+            </td>
+            </div>
+        <div style="height:15px;"></div>
+    </div>
+
+
+
+</div>

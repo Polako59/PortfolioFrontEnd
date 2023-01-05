@@ -1,0 +1,137 @@
+{
+    "nombre": "Ernesto Dominikow",
+    "acercade": "Profesional con amplia experiencia en las áreas de Sistemas y Comunicaciones obtenidas trabajando para reconocidas empresas nacionales y multinacionales.",
+    "imgfondo":"assets/images/foto_escritorio_3.jpg",
+    "logo":"assets/images/ArgentinaProgramaLogo.PNG",
+    "facebook":"assets/images/facebook.svg",
+    "linkedin":"assets/images/linkedin.svg",
+    "twitter":"assets/images/twitter.svg",
+    "email":"assets/images/email.svg",
+
+    "experiencia": [
+      {
+        "empresa": "EMPRESA",
+        "desde": 9999,
+        "hasta": 9999,
+        "detalle": "Detalle de puesto y tareas realizadas."
+      },
+      {
+        "empresa": "EMPRESA",
+        "desde": 9999,
+        "hasta": 9999,
+        "detalle": "Detalle de puesto y tareas realizadas."
+      },
+      {
+        "empresa": "EMPRESA",
+        "desde": 9999,
+        "hasta": 9999,
+        "detalle": "Detalle de puesto y tareas realizadas."
+      },
+      {
+        "empresa": "EMPRESA",
+        "desde": 9999,
+        "hasta": 9999,
+        "detalle": "Detalle de puesto y tareas realizadas."
+      },
+      {
+        "empresa": "EMPRESA",
+        "desde": 9999,
+        "hasta": 9999,
+        "detalle": "Detalle de puesto y tareas realizadas."
+      }
+    ],
+
+    "formacion": [
+       
+        {
+          "nivel": "Primario",
+          "titulo": "Primario Completo",
+          "institucion": "Institución donde se realizó la cursada"
+        },
+        {
+            "nivel": "Primario",
+            "titulo": "Primario Completo",
+            "institucion": "Institución donde se realizó la cursada"
+        },
+        {
+            "nivel": "Primario",
+            "titulo": "Primario Completo",
+            "institucion": "Institución donde se realizó la cursada"
+        },
+        {
+            "nivel": "Primario",
+            "titulo": "Primario Completo",
+            "institucion": "Institución donde se realizó la cursada"
+        }
+    ],
+
+    "cursos": [
+        {
+          "lugar": "Angular",
+          "curso": "Argentina Programa"
+        },
+        {
+            "lugar": "Primario",
+            "curso": "Primario Completo"
+        },
+          {
+            "lugar": "Primario",
+            "curso": "Primario Completo"
+        },
+          {
+            "lugar": "Primario",
+            "curso": "Primario Completo"
+        }
+    ],
+
+    "proyectos": [
+        {
+          "nombre": "Nombre del proyecto",
+          "descripcion": "Descripción del proyecto",
+          "link": "Link del proyecto"
+        },
+        {
+            "nombre": "Nombre del proyecto",
+            "descripcion": "Descripción del proyecto",
+            "link": "Link del proyecto"
+        },
+        {
+            "nombre": "Nombre del proyecto",
+            "descripcion": "Descripción del proyecto",
+            "link": "Link del proyecto"
+        }
+    ],
+
+    "fortalezas": [
+      {
+        "nombre": "Fortaleza 1",
+        "porcentaje": "10",
+        "imagen":"assets/images/facebook.svg"
+      },
+      {
+        "nombre": "Fortaleza 2",
+        "porcentaje": "20",
+        "imagen":"assets/images/facebook.svg"
+      },
+      {
+        "nombre": "Fortaleza 3",
+        "porcentaje": "30",
+        "imagen":"assets/images/facebook.svg"
+      },
+      {
+        "nombre": "Fortaleza 3",
+        "porcentaje": "30",
+        "imagen":"assets/images/facebook.svg"
+      },
+      {
+        "nombre": "Fortaleza 3",
+        "porcentaje": "30",
+        "imagen":"assets/images/facebook.svg"
+      },
+      {
+        "nombre": "Fortaleza 3",
+        "porcentaje": "30",
+        "imagen":"assets/images/facebook.svg"
+      }
+  ]
+}
